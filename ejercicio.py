@@ -16,14 +16,14 @@
 # Restricción:
 # Usa condicionales anidados para separar primero el caso de "Larga Estancia" (> 24h) de los casos de estancia normal.
 
-minutos = int(input("Minutos de estancia: "))
-tipo_vehiculo = input("Tipo (auto/moto): ").lower()
-dia_semana = input("Día de la semana: ").lower()
+minutos = int(input("Minutos de parqueo: "))
+tipo_vehiculo = input("auto o moto): ")
+dia_semana = input("Día de la semana: ")
 
 # 1. Verificamos si supera las 24 horas
 if minutos > 1440:
     total = 150.0
-    print(f"Tarifa plana por larga estancia aplicada: ${total}")
+    print(f"Tarifa plana por larga estancia aplicada: ${total}") 
 else:
     # Calculamos precio base ($5 por hora o fracción)
     horas = minutos / 60

@@ -1,9 +1,5 @@
-def edad(a):
-    if a >= 18:
-        return "Eres mayor de edad."
-    elif a < 18:
-        return "Eres menor de edad."
+num1 = int(input("Ingresa un número entero: "))
+num2 = int(input("Ingresa otro número entero: "))
 
-print(edad(20) )
-print(edad(14) )
-print(edad(17) )
+suma = num1+ num2
+print("La suma es:", suma)
