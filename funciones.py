@@ -6,3 +6,4 @@ def edad(a):
 
 print(edad(20) )
 print(edad(14) )
+print(edad(17) )
